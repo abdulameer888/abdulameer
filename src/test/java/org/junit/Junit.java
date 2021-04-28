@@ -36,9 +36,9 @@ public class Junit {
 	@Test
 	public void test1() throws InterruptedException {
 		WebElement txtname = driver.findElement(By.id("email"));
-		txtname.sendKeys("ameer");
+		txtname.sendKeys(" abdul ameer");
 		WebElement txtpass = driver.findElement(By.id("pass"));
-		txtpass.sendKeys("23456");
+		txtpass.sendKeys("23123456456");
 		Thread.sleep(2000);
 		WebElement btnlogin = driver.findElement(By.name("login"));
 		btnlogin.click(); 
